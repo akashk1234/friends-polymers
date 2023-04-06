@@ -37,22 +37,22 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name don't you?",
+                    required: "Please enter your name",
                     minlength: "your name must consist of at least 2 characters"
                 },
                 phone: {
-                    required: "come on, you have a phone don't you?",
+                    required: "Please enter your phone number",
                     minlength: "your phone number must consist of at least 2 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "Please enter your email"
                 },
                 subject: {
                     required: "please indicate a subject"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Write something to send this form.",
+                    minlength: "thats all?"
                 }
             },
             submitHandler: function(form) {
